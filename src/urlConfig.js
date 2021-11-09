@@ -1,5 +1,5 @@
-export const API_URL = "https://atdoorapis.herokuapp.com/api";
+export const API_URL = "http://localhost:3000/api";
 
 export const generatePublicUrl = (filename) => {
-  return `https://atdoorapis.herokuapp.com/public/${filename}`;
+  return `http://localhost:3000/public/${filename}`;
 };
