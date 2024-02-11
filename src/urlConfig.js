@@ -1,5 +1,5 @@
-export const API_URL = "http://localhost:3000/api";
+export const API_URL = "https://apis-v2-0.vercel.app/api";
 
 export const generatePublicUrl = (filename) => {
-  return `http://localhost:3000/public/${filename}`;
+  return `https://apis-v2-0.vercel.app/public/${filename}`;
 };
